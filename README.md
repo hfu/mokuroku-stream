@@ -12,5 +12,5 @@ $ cd mokuroku-stream
 
 ## usage
 ```console
-$
+$ node index.js experimental_landformclassification1
 ```

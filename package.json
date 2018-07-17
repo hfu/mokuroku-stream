@@ -1,0 +1,24 @@
+{
+  "name": "mokuroku-stream",
+  "version": "1.0.0",
+  "description": "stream mokuroku lines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfu/mokuroku-stream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/hfu/mokuroku-stream/issues"
+  },
+  "homepage": "https://github.com/hfu/mokuroku-stream#readme",
+  "dependencies": {
+    "byline": "^5.0.0",
+    "node-fetch": "^2.1.2"
+  }
+}
