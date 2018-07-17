@@ -13,6 +13,7 @@ fetch(`https://maps.gsi.go.jp/xyz/${process.argv[2]}/mokuroku.csv.gz`)
     s.on('data', line => {
       zxy = line.toString().split('/').map(v => parseInt(v))
       if (zxy.length !== 3) return
+      if (isNaN(zxy[2])) return
       console.log(zxy)
     })
   })
